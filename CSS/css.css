@@ -1,0 +1,125 @@
+*{
+    font-family: 'Poppins';
+    margin: 0px;
+   
+}
+body{
+    background-color: #E5E5E5;
+}
+.s1 , .s2{
+    margin: 50px 150px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.n1, .n2{
+    margin: 0px 150px;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+.player h3{
+    padding-left: 10px;
+    font-weight: 400;
+}
+.top_player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 50px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.top_blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.blog{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.course img{
+    width: 224px;
+    height: 104px; 
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.n1 img{
+    width: 40.42px;
+    height: 51px;
+}
+.n1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.n2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap:10px;
+    
+}
+.four{
+    color: gold;
+}
+.rating{
+    display: flex;
+    font-size: 10px;
+    align-content: center;
+    justify-content: space-between;
+}
+h2{
+    color: blueviolet;
+}
+.blog h3{
+    font-weight: 400;
+}
+.blog p{
+    font-weight: 200;
+    font-size: 12px;
+}
+@media screen and (max-width:576px) {
+    .s1 , .s2{
+        margin: 2px;
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+    .n1, .n2{
+        margin: 2px;
+    }
+    .top_player{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 50px;
+    }
+    .top_blog{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .courses{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        
+    }
+
+    
+}
